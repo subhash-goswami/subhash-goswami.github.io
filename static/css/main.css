@@ -9,7 +9,8 @@ body {
 body::before {
     content: "";
     position: fixed;
-    background: #040404 url("../image/akshay1.jpeg") center right no-repeat;
+    /* background: #040404 url("../image/akshay1.jpeg") center right no-repeat; add url */
+    background: #040404 center right no-repeat; 
     background-size: cover;
     left: 0;
     right: 0;
